@@ -1,5 +1,9 @@
 def starts_with_a_vowel?(word)
- word.scan(/^[aeiou].*/).class == Array ? true : false
+  if word.scan(/^[aeiou].*/).class == Array
+    true
+  else
+    false
+  end
 
 end
 
