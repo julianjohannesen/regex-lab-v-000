@@ -1,4 +1,3 @@
-result = nil
 def starts_with_a_vowel?(word)
   result = word.scan(/^[aeiou].*$/)
   if result.length > 0
